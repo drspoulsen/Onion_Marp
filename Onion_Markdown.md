@@ -76,3 +76,25 @@ So, we might as well consider the limiting case as the number of layers approach
 ![w:500px bg right:50%](Onion_3.png)
 
 Similarly, the number of cuts being made has an effect on the answer. So, for simplicity, we can think of making infinitely many cuts as well.
+
+---
+
+# Live Mathematics
+
+![w:600px](discord_1.png)
+![w:600px](discord_2.png)
+
+---
+
+# Inspiration: The Jacobian!
+
+![w:500px bg right:50%](Onion.png)
+
+Rectangular $\rightarrow$ Polar:
+$
+x=r \cos(\theta),
+$
+$
+y=r \sin(\theta).
+$
+$$ J(r,\theta)  = \frac{\partial x}{\partial r} \frac{\partial y}{\partial \theta} - \frac{\partial x}{\partial \theta} \frac{\partial y}{\partial r} = r
