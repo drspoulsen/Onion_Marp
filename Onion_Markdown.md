@@ -97,4 +97,5 @@ $
 $
 y=r \sin(\theta).
 $
-$$ J(r,\theta)  = \frac{\partial x}{\partial r} \frac{\partial y}{\partial \theta} - \frac{\partial x}{\partial \theta} \frac{\partial y}{\partial r} = r
+$$ J(r,\theta)  = \frac{\partial x}{\partial r} \frac{\partial y}{\partial \theta} - \frac{\partial x}{\partial \theta} \frac{\partial y}{\partial r} = r$$
+
