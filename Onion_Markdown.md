@@ -229,11 +229,41 @@ We need to know what is the relationship between $(x,y)$ and $(r,\theta)$ in thi
 
 # The Jacobian
 
-![w:500px bg right:50%](Onion_6.png)
+![w:300px bg right:50%](Onion_7.png)
 
 Define $c$ to be the distance from the point $(0,-h)$ to a given point $(x,y)$ (both in the rectangular coordinate system).
 
 Using the law of cosines, we can calculate
-\[
+$$
 c=h \cos(\theta)+\sqrt{r^2-h^2\sin^2(\theta)}.
-\]
+$$
+
+---
+
+# The Jacobian
+
+![w:300px bg right:50%](Onion_7.png)
+
+With 
+$$
+c=h \cos(\theta)+\sqrt{r^2-h^2\sin^2(\theta)}.
+$$
+$$
+\begin{align*}
+x & = c \sin(\theta) \\
+y & = c \cos(\theta)-h
+\end{align*}
+$$
+
+---
+
+# The Jacobian
+
+* From this, for a given depth $h$, we can calculate the Jacobian as
+$$
+\begin{align*}
+\scriptscriptstyle J(r,\theta) =& \scriptscriptstyle \frac{r \cos (\theta ) \left(\sin (\theta ) \left(-\frac{h^2 \sin (\theta ) \cos (\theta )}{\sqrt{r^2-h^2 \sin ^2(\theta )}}-h \sin (\theta )\right)+\cos (\theta ) \left(\sqrt{r^2-h^2 \sin ^2(\theta )}+h \cos (\theta )\right)\right)}{\sqrt{r^2-h^2 \sin ^2(\theta )}}\\
+& \scriptscriptstyle -\frac{r \sin (\theta ) \left(\cos (\theta ) \left(-\frac{h^2 \sin (\theta ) \cos (\theta )}{\sqrt{r^2-h^2 \sin ^2(\theta )}}-h \sin (\theta )\right)-\sin (\theta ) \left(\sqrt{r^2-h^2 \sin ^2(\theta )}+h \cos (\theta )\right)\right)}{\sqrt{r^2-h^2 \sin ^2(\theta )}}.
+\end{align*}
+$$
+* Yikes!
